@@ -1,5 +1,6 @@
 # settings.json
 ## user
+```
 {
     // 仮想環境のパス。作成した Anaconda仮想環境を指定する。
     "python.venvPath": "${env:CONDA_ENVS_PATH}/elmspy",
@@ -29,8 +30,9 @@
     "autoDocstring.docstringFormat": "numpy",
     "autoDocstring.startOnNewLine": true,
 }
-
+```
 ## folder
+```
 {
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     // 拡張機能のロード時にターミナルでPython環境をアクティブにする。
@@ -45,3 +47,4 @@
         "${env:CONDA_ENVS_PATH}/archi_patterns/Lib/site-packages"
     ],
 }
+```
